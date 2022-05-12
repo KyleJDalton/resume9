@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="contact-page">
+
+    <form action="mailto:kyle.jdalton@outlook.com" method="post">
+        <label for="Name">Name & Surname</label><br>
+        <input type="text"><br>
+        <label for="Company Name">Company Name:</label><br>
+        <input type="text"><br>
+        <label for="Email">Email:</label><br>
+        <input type="text"><br>
+        <label for="Text">Text</label><br>
+        <input type="text"><br>
+        <input type="submit" value="submit">
+    </form>
+    <h1>Contact details</h1>
+    <h3>Email:kyle.jdalton@outlook.com</h3>
+    
+</body>
+</html>
+
+
+
+
+<!-- new form submission -->    
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formvalidation.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+
+        <label for="userID">UserID:</label>
+        <input type="text" id="userID" minlength="5" maxlength="12" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="text" id="password" minlength="7" maxlength="12" required>
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" pattern="[A-Za-z]{3-12}" required>
+        <br>
+        <label for="address">Address:</label>
+        <input type="text" id="address">
+        <br>
+        <label for="country">Country:</label>
+        <select name="country" id="country" required>
+            <option value="south africa">South Africa</option>
+            <option value="america">America</option>
+            <option value="new zeland">New Zeland</option>
+            <option value="canada">Canada</option>
+            <option value="russia">Russia</option>
+        </select>
+        <br>
+        <label for="zipcode">ZIPcode:</label>
+        <input type="number" id="zipcode" max="9999" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="sex">Sex:</label>
+        <input type="radio" id="female" name="sex"value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="sex" value="male" required>
+        <label for="male">Male</label>
+        <br>
+        <label for="languages">Languages:</label> 
+        <input type="checkbox" id="language1" name="language1" value="English" required>
+        <label for="languages">English</label>
+        <input type="checkbox" id="language2" name="language2" value="Other"  required>
+        <label for="languages">Other</label>
+        <br>
+        <label for="about">About:</label><br>
+        <textarea name="About" rows="10" cols="30" id="about"></textarea>
+        <br>
+        
+        <input type="submit" id="submit">
+    </form>
+</body>
+</html>
