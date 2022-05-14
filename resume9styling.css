@@ -77,7 +77,7 @@ a:visited{
     main{
         display: inline-block;
         flex-direction: none;
-        background-image: url(../Images/new-background-white.webp);
+        background-image: url(./Images/new-background-white.webp);
     }
     p{
         padding: 2rem;
@@ -85,14 +85,14 @@ a:visited{
     #sidebar{
         margin: 0;
         height: fit-content;
-        background-image: url(../Images/new-background-darkmed.png);
+        background-image: url(./Images/new-background-darkmed.png);
 
     }
     #heading{
-        background-image: url(../Images/new-background-darkmed.png);
+        background-image: url(./Images/new-background-darkmed.png);
     }
     #contact{
-        background-image: url(../Images/new-background-darkmed.png);
+        background-image: url(./Images/new-background-darkmed.png);
     }
     #main-container{
         width:100%;
