@@ -8,8 +8,6 @@ body{
     width:100%;
 }
 
-
-
 header{
     background-color:black;
 }
@@ -47,7 +45,116 @@ a:visited{
     text-decoration: none;
 }
 .content-padding{
-    padding: 2rem;
+     padding: 2rem; 
+}
+
+.icon{
+    width:4rem;
+    margin: 2rem;
+}
+.icon:hover{
+    transform:scale(1.5);
+    transition: 1s;
+    
+}
+
+.heading-text{
+    color:#EEEEEE;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.skills{
+    list-style-type: none;
+    }
+    
+.nav-name{
+        color:#EEEEEE
+    }
+#nav{
+color: #0bc662
+}
+#nav:visited{
+color: #0b819f
+}
+
+
+
+
+
+
+#headshot1{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width:200px;
+}
+
+#headshot{
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    
+}
+
+#main-container{
+    width:100%;
+}
+
+#heading{
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+#language-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+#logo-html{
+    
+    width:4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo-html:hover{
+    transform:scale(1.5);
+    transition: 1s;
+}
+#logo-css{
+    
+    width:3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo-css:hover{
+    transform:scale(1.5);
+    transition: 1s;
+}
+#education-logo{
+    width:4rem;
+    padding-top: 30px;
+}
+#work-logo{
+    width:3rem;
+    padding-top: 30px;
+}
+#skills-logo{
+    width: 4rem;
+    padding-top: 1rem;
+}
+
+#contact-page{
+    padding: 20px;
+}
+#language-heading{
+    color: #EEEEEE;
+}
+#contact-heading{
+    color: #EEEEEE;
 }
 @media screen and (max-width: 600px){
     main{
@@ -99,11 +206,12 @@ a:visited{
         height:fit-content;
     }
 }
-@media screen and (min-width:800px){
+@media screen and (min-width:800px){ 
     #heading{
         background-image: url(./Images/geomety-wallpaper2.jpg);
        width: 100%;
    }
+   
    #contact{
     color: #EEEEEE;
     background-image: url(./Images/geomety-wallpaper2.jpg);
@@ -121,108 +229,4 @@ a:visited{
        
    }
 
-}
-
-
-.icon{
-    width:4rem;
-    margin: 2rem;
-}
-.icon:hover{
-    transform:scale(1.5);
-    transition: 1s;
-    
-}
-
-.heading-text{
-    color:#EEEEEE;
-    text-align: center;
-    padding-bottom: 20px;
-    
-}
-.nav{
-color: #0bc662
-}
-.nav:visited{
-color: #0b819f
-}
-
-
-.skills{
-list-style-type: none;
-}
-
-.nav-name{
-    color:#EEEEEE
-}
-
-#headshot1{
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-    width:200px;
-}
-
-#headshot{
-    display: block;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    
-}
-
-#main-container{
-    width:100%;
-}
-
-#heading{
-    padding-top: 50px;
-    padding-bottom: 30px;
-
-}
-#language-logo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-  
-#logo-html{
-    padding-top: 50px;
-    width:4rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-#logo-html:hover{
-    transform:scale(1.5);
-    transition: 1s;
-}
-#logo-css{
-    padding-top: 50px;
-    width:3rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-#logo-css:hover{
-    transform:scale(1.5);
-    transition: 1s;
-}
-#education-logo{
-    width:4rem;
-    padding-top: 30px;
-}
-#work-logo{
-    width:3rem;
-    padding-top: 30px;
-}
-#skills-logo{
-    width: 4rem;
-    padding-top: 1rem;
-}
-
-#contact-page{
-    padding: 20px;
-}
-#language-heading{
-    color: #EEEEEE;
 }
